@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "commonjs": true
+  },
+  "rules": {
+    "arrow-parens": 0,
+    "no-mixed-operators": [
+      "warn", { "groups": [["==", "!=", "===", "!==", ">", ">=", "<", "<="]] }
+    ]
+  }
+}

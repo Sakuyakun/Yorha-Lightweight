@@ -1,0 +1,12 @@
+node_modules/
+build
+cache
+app
+*.log
+.idea
+.sass-cache
+lib
+build
+.vscode
+.DS_Store
+*.git
